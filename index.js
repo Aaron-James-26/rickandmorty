@@ -36,7 +36,7 @@ function getUsers(){
         console.log(data)
         data.forEach((element) =>{
             
-            html += `<li> ID: ${element.id} <p>Name: ${element.name}</p> <p>Status: ${element.status}</p> <p>Species: ${element.species}</p> <p>Type${element.type}</p> <p>gender: ${element.gender}</p> <p>Origin: ${element.origin}</p> <p>Image:${element.image}</p></li>`
+            html += `<li> ID: ${element.id} <p>Name: ${element.name}</p> <p>Status: ${element.status}</p> <p>Species: ${element.species}</p> <p>Type${element.type}</p> <p>gender: ${element.gender}</p> <p>Origin: ${element.origin}</p> <img src="${element.image}</li>`
         })
 
         content.innerHTML = html
